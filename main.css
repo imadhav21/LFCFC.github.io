@@ -16,7 +16,10 @@
 
 .tp {
 	min-height: 70vh;
-	background-color: #e5fee5;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Pictures/Cool.png");
+	background-position: static;
+	background-size: cover;
+	color: #f9f9f9;
 }
 
 .fop {
