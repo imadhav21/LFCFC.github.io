@@ -1,0 +1,13 @@
+.nicec {
+	background-color: #003300;
+}
+
+.fp {
+	min-height: 100vh;
+	background-color: rgb(235, 244, 252);
+}
+
+.cw {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://www.publicdomainpictures.net/pictures/300000/velka/wheat-field-background.jpg');
+}
