@@ -1,0 +1,29 @@
+.nicec {
+	background-color: #003300;
+}
+
+.front-page {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://unsplash.com/photos/ZuV4bPalclY/download");
+	background-position: center;
+	min-height: 90vh;
+}
+
+.sp {
+	min-height: 70vh;
+	background-color: #ecfbf9;
+}
+
+.tp {
+	min-height: 70vh;
+	background-color: #e5fee5;
+}
+
+.fop {
+	min-height: 50vh;
+}
+
+.fp {
+	min-height: 50vh;
+	background-color: #f3f3f3;
+}
