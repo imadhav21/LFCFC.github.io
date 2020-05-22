@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./bcss/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./Pictures/favicon.png" type="image/x-icon">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.5.0.min.js"></script>
     <script src="https://kit.fontawesome.com/42f5a35614.js" crossorigin="anonymous"></script>
     <title>LFCF</title>
 </head>
@@ -23,7 +25,19 @@
     <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="/html/about.html" class="nav-link">About Us</a>
+                <a href="/html/greetings.html" class="nav-link">Greetings</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/html/about.html" class="nav-link" >About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" role= "button" id="drop" data-toggle = "dropdown" aria-haspopup="true" aria-expanded="false">What We Believe</a>
+                <div class="dropdown-menu" aria-labelledby="drop">
+                    <a href="" class="dropdown-item">Foundations</a>
+                    <a href="" class="dropdown-item">The Church</a>
+                    <a href="" class="dropdown-item">Doctrines</a>
+                    <a href="" class="dropdown-item">Assembling of the Believers</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">Ministries</a>
@@ -198,16 +212,28 @@
 
 <footer class="page-footer bg-secondary p-3">
     <div class="row">
-        <div class="col">
+        <div class="col-3">
             <div class="container-fluid text-center text-white lead">
                 Little Flock Christian Fellowship 2020
             </div>
         </div>
-        <div class="col text-white">
-            <div>Luke 12:32 - Fear not, little flock; for it is your Father's good pleasure to give you the kingdom.</div>
+        <div class="col-1"><a class="text-white" href="#">Locations</a> </div>
+        <div class="col-1"> <a class="text-white" href="#">Contact Us</a></div>
+        <div class="col-7 text-center text-white">
+            <div>Luke 12:32 - Fear not, little flock; for it is your Father's good pleasure to give you the kingdom.
+            </div>
         </div>
     </div>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 </html>

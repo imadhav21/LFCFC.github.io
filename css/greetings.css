@@ -1,0 +1,13 @@
+.coolbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://img.pngio.com/21-cool-backgrounds-hd-jpeg-png-free-premium-templates-modest-hd-pc-backgrounds-png-825_550.jpg');
+}
+
+.nicec {
+	background-color: #003300;
+}
+
+.fp {
+	min-height: 70vh;
+	background-color: honeydew;
+}
