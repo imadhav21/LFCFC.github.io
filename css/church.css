@@ -1,0 +1,24 @@
+.nicec {
+	background-color: #003300;
+}
+
+.coolbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://backgroundchecksforchurches.com/wp-content/uploads/2016/10/Slide1-1130x576.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fp {
+	min-height: 100vh;
+	background-color: ivory;
+}
+
+.cbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

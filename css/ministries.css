@@ -1,0 +1,16 @@
+.nicec {
+	background-color: #003300;
+}
+
+.coolbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://images.squarespace-cdn.com/content/v1/5567c840e4b051803a28cae0/1440377506280-M5JVJYJZW76F3Y52IX2B/ke17ZwdGBToddI8pDm48kOiaP63OFcVIdEfkxyrgq917gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ubj9o5pp1uDWXF6vG1bjhjqvpCAb1PecczLm_QbQuPiYzN6QY7niGWDmqnvl2nsF8A/image-asset.jpeg?format=1500w');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fp {
+	min-height: 100vh;
+	background-color: rgb(232, 247, 247);
+}

@@ -1,0 +1,16 @@
+.nicec {
+	background-color: #003300;
+}
+
+.coolbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://i.pinimg.com/originals/df/e7/5a/dfe75aab1455560efbfde09b78839c31.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fp {
+	min-height: 100vh;
+	background-color: lavender;
+}
