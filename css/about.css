@@ -19,3 +19,25 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media (min-width: 1350px) {
+	.nice {
+		padding: 0 200px;
+	}
+}
+
+@media (min-width: 340px) and (max-width: 768px) {
+	.nice {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
+}

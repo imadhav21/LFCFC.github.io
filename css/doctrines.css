@@ -14,3 +14,13 @@
 	min-height: 100vh;
 	background-color: lavender;
 }
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
+}

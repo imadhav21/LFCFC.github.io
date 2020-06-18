@@ -11,3 +11,13 @@
 	min-height: 70vh;
 	background-color: honeydew;
 }
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
+}

@@ -3,7 +3,7 @@
 }
 
 .coolbg {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url('https://mosaiccc.com/wp-content/uploads/2019/01/contact-us-background.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -13,4 +13,25 @@
 .fp {
 	min-height: 100vh;
 	background-color: rgb(232, 247, 247);
+}
+
+.border {
+	height: 1px;
+	background-color: black;
+}
+
+@media (min-width: 769px) {
+	hr {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
 }

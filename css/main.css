@@ -28,10 +28,67 @@
 
 .fp {
 	min-height: 50vh;
-	background-color: #f3f3f3;
+	background-color: #d5d9df;
 }
 
 .cp {
 	min-height: 50vh;
 	background-color: #fafaf7;
+}
+
+@media (min-width: 1350px) {
+	.i1 {
+		padding: 0 0 0 50px;
+	}
+}
+
+@media (min-width: 1350px) {
+	.i2 {
+		padding: 0 50px 0 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.b {
+		display: none;
+	}
+}
+
+.border {
+	height: 1px;
+	background-color: black;
+}
+
+@media (min-width: 769px) {
+	hr {
+		display: none;
+	}
+}
+
+@media (max-width: 1140px) and (min-width: 769px) {
+	.disappear1 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.disappear2 {
+		display: none;
+	}
+}
+
+@media (min-width: 1141px) {
+	.disappear2 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.smallt {
+		margin: 20px 0;
+	}
+}
+
+.fcool {
+	background-color: rgb(62, 60, 71);
 }
