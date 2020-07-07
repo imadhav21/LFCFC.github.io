@@ -12,7 +12,7 @@
 
 .fp {
 	min-height: 100vh;
-	background-color: lavender;
+	background-color: rgb(226, 240, 248);
 }
 
 @media (max-width: 768px) {
